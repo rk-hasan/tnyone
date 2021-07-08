@@ -1,0 +1,259 @@
+/*Start Include Font-family */
+@font-face {
+    font-family: PTS75F;
+    src: url(../fonts/pt-sans/PTS75F.ttf);
+}
+@font-face {
+    font-family: PTS55F;
+    src: url(../fonts/pt-sans/PTS55F.ttf);
+}
+/*End Include Font-family */
+/* Start Reuseble Block */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+}
+body h1{
+    margin: 0;
+    padding: 0;
+    font-family: PTS75F;
+    font-weight: bold;
+}
+body h2{
+    margin: 0;
+    padding: 0;
+    font-family: PTS55F;
+    font-weight: 400;
+    font-size: 28px;
+}
+/* End Reuseble Block */
+/* Start Header */
+.header{
+    width: 100%;
+    background-color: #fcdb00;
+    padding: 45px 0;
+}
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo{
+    width: 16%;
+    float: left;
+    padding: 9px 0;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    margin-right: 70px;
+    font-family: PTS75F;
+    font-size: 30px;
+    font-weight: bold;
+    color: #010101;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* End Header */
+/* Start Banner */
+.banner{
+    /* border: 1px solid; */
+    background-color: #fcdb00;
+    padding-bottom: 95px;
+}
+.banner-text{
+    width: 49%;
+    float: left;
+    /* border: 1px solid red; */
+    padding-top: 65px;
+}
+.heading{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 26px;
+}
+.content{
+    font-size: 20px;
+}
+.banner-icon{
+    float: left;
+}
+.banner-icon ul{
+    margin-left: -39px;
+    list-style: none;
+}
+.banner-icon ul li{
+    display: inline;
+}
+.banner-icon ul li a{
+    margin-left: 35px;
+}
+.banner-icon ul li:first-child a{
+    margin-left: 0;
+}
+.banner-img{
+    width: 38%;
+    margin-right: 26px;
+    float: right;
+    /* border: 1px solid green; */
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+/* End Banner */
+/* Feature Start */
+.feature{
+    /* border: 1px solid; */
+    padding: 100px 0;
+}
+.feature-text{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-bottom: 80px;
+}
+.service-item{
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    /* border: 1px solid mediumblue; */
+}
+.m-left{
+    margin-left: 60px;
+}
+.m-top{
+    margin-top: 80px;
+}
+.f-right{
+    float: right;
+}
+.service-icon{
+    margin: 5px 0;
+    width: 10%;
+    float: left;
+    /* border: 1px solid gray; */
+}
+.service-icon img{
+    width: 100%;
+}
+.service-text{
+    float: right;
+    width: 85%;
+    /* border: 1px solid red; */
+}
+/* Feature End */
+/* Start Keep in Touch */
+.touch{
+    background-color: #010101;
+    border: 1px solid;
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.touch-text h1{
+    color: #fcdb00;
+}
+.touch-text p{
+    color: #898989;
+}
+.touch-input input{
+    width: 80%;
+    min-height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.touch-input input:focus{
+    outline: none;
+}
+.touch-input button{
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fcdb00;
+    font-family: PTS75F;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.touch-input button:hover{
+    background-color: black;
+    color: #fcdb00;
+}
+/* Start Touch Social Icon */
+.touch-icon{
+    margin-top: 75px;
+}
+.touch-icon ul{
+    list-style: none;
+}
+.touch-icon ul li{
+    display: inline;
+}
+.touch-icon ul li a{
+    margin-left: 30px;
+}
+/* End Touch Social Icon */
+/* End Keep in Touch */
+/* Start Footer */
+footer{
+    padding: 30px 0 100px;
+    background-color: #010101;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease all .6s;
+}
+footer ul li a:hover{
+    color: #fcdb00;
+}
+.col-1{
+    width: 28%;
+    margin-left: -40px;
+    float: left;
+    
+}
+.col-2{
+    width: 13%;
+    margin-left: 40px;
+    float: left;
+}
+.col-3{
+    width: 12%;
+    margin-left: 65px;
+    float: left;
+}
+.col-4{
+    width: 15%;
+    margin-left: 50px;
+    float: left;
+}
+.col-5{
+    width: 12%;
+    float: right;
+}
+/* End Footer */
